@@ -1,0 +1,15 @@
+# Core dependency for file system event monitoring
+watchdog>=3.0.0
+
+# Optional: For better logging (more features than built-in logging)
+loguru>=0.7.2
+
+# Optional: For building GUI (use only one depending on preference)
+tk  # Built into Python but listed for clarity
+PyQt5>=5.15.10  # Rich GUI framework (alternatively use PySide2 or PySide6)
+
+# Optional: For turning script into executable
+pyinstaller>=6.5.0  # For creating a standalone .exe
+
+# Optional: General utility for environment management and packaging (if needed)
+setuptools>=69.0.0
